@@ -1,0 +1,46 @@
+{
+  "extends": [
+    "@evojam/tslint-rules/node.tslint.json"
+  ],
+  "rules": {
+    "no-any": false,
+    "no-unsafe-any": false,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "member-access": [
+      false
+    ],
+    "ordered-imports": [
+      true,
+      {
+        "import-sources-order": "lowercase-last"
+      }
+    ],
+    "max-line-length": [
+      150
+    ],
+    "curly": false,
+    "import-blacklist": [
+      true
+    ],
+    "interface-name": [
+      false
+    ],
+    "array-type": [
+      true
+    ],
+    "no-empty-interface": false,
+    "no-empty": false,
+    "no-expression-statement": false,
+    "brace-style": [
+      true,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "prefer-method-signature": false
+  }
+}
